@@ -1,6 +1,7 @@
 # video-stego-dc-encoding instructions
 ## Donwnload
-```imodule https://github.com/charD190523/video-stego/raw/refs/heads/main/video-stego-dc-encoding.tar`
+```bash
+imodule https://github.com/charD190523/video-stego/raw/refs/heads/main/video-stego-dc-encoding.tar`
 ## Hướng dẫn thực hành
 Để thực hiện giấu tin vào video, trước hết cần tạo file message.txt chứa thông điệp cần giấu, sau đó nhập thông điệp vào trong file:
 ```sudo nano message.txt
