@@ -26,7 +26,7 @@ Số khối theo chiều ngang: 640/8=80 <br>
 Số khối theo chiều dọc: 360/8=45 <br>
 => Tổng số khối là 80x45 = 3600 khối <br>
 Mỗi ký tự cần 8 bit => có thể giấu được thông điệp dài 450 ký tự <br>
-Vì thông điệp có dạng \&lt;length\&gt;*\&lt;message\&gt; => message có thể dài tối đa 446 ký tự <br>
+Vì thông điệp có dạng [length]*[message] => message có thể dài tối đa 446 ký tự <br>
 Thêm điệp có độ dài lớn hơn 446 ký tự vào file message.txt, thực hiện giấu tin lại và kiểm tra kết quả <br>
 
 ```python
