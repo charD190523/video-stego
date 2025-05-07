@@ -10,7 +10,7 @@ imodule https://github.com/charD190523/video-stego/raw/refs/heads/main/video-ste
 sudo nano message.txt
 ```
 Thực hiện extract video thành các khung hình bằng câu lệnh sau:
-```ruby
+```python
 python3 extract_frames
 ```
 Nhập đường dẫn tuyệt đối đến video, sử dụng lệnh passwd để xem: /home/ubuntu/video/video.mp4
