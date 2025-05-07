@@ -1,9 +1,10 @@
-# video-stego-dc-encoding instructions
-## Donwnload
+# video-stego-dc instructions
+## video-stego-dc-encoding
+### Donwnload
 ```bash
 imodule https://github.com/charD190523/video-stego/raw/refs/heads/main/video-stego-dc-encoding.tar
 ```
-## Hướng dẫn thực hành
+### Hướng dẫn thực hành
 Để thực hiện giấu tin vào video, trước hết cần tạo file message.txt chứa thông điệp cần giấu, sau đó nhập thông điệp vào trong file:
 ```
 sudo nano message.txt
@@ -20,11 +21,11 @@ python3 encoding.py
 ```
 Nhập đường dẫn tuyệt đối đến file message.txt, sử dụng lệnh passwd => thông điệp được giấu thành công
 Video được sử dụng trong bài lab có độ phân giải 640x360, có:
-`Số khối theo chiều ngang: 640/8=80
- Số khối theo chiều dọc: 360/8=45
- => Tổng số khối là 80x45 = 3600 khối
- Mỗi ký tự cần 8 bit => có thể giấu được thông điệp dài 450 ký tự
- Vì thông điệp có dạng <length>*<message> => message có thể dài tối đa 446 ký tự
+Số khối theo chiều ngang: 640/8=80
+Số khối theo chiều dọc: 360/8=45
+=> Tổng số khối là 80x45 = 3600 khối
+Mỗi ký tự cần 8 bit => có thể giấu được thông điệp dài 450 ký tự
+Vì thông điệp có dạng \&lt;length\&gt;*\&lt;message\&gt; => message có thể dài tối đa 446 ký tự
 Thêm điệp có độ dài lớn hơn 446 ký tự vào file message.txt, thực hiện giấu tin lại và kiểm tra kết quả
 ```python
 python3 encoding.py
