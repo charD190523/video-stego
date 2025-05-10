@@ -13,14 +13,14 @@ Thực hiện extract video thành các khung hình bằng câu lệnh sau:
 ```python
 python3 extract_frames
 ```
-Nhập đường dẫn tuyệt đối đến video, sử dụng lệnh passwd để xem: /home/ubuntu/video/video.mp4
+Nhập đường dẫn tuyệt đối đến video, sử dụng lệnh pwd để xem: /home/ubuntu/video/video.mp4
 Các khung hình được extract thành công và lưu vào thư mục frames
 Thực hiện lệnh sau để giấu thông điệp vào video:
 ```python
 python3 encoding.py
 ```
 
-Nhập đường dẫn tuyệt đối đến file message.txt, sử dụng lệnh passwd => thông điệp được giấu thành công <br>
+Nhập đường dẫn tuyệt đối đến file message.txt, sử dụng lệnh pwd => thông điệp được giấu thành công <br>
 Video được sử dụng trong bài lab có độ phân giải 640x360, có: <br>
 Số khối theo chiều ngang: 640/8=80 <br>
 Số khối theo chiều dọc: 360/8=45 <br>
